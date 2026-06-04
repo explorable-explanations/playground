@@ -10,14 +10,14 @@ Your feedback is highly appreciated!
 
 To run the visualization locally, run:
 - `npm i` to install dependencies
-- `npm run build` to compile the app and place it in the `docs/` directory
-- `npm run serve` to serve from the `docs/` directory and open a page on your browser.
+- `npm run build` to compile the app and place it in the `dist_ja/` directory
+- `npm run serve` to serve from the `dist_ja/` directory and open a page on your browser.
 
 For a fast edit-refresh cycle when developing run `npm run serve-watch`.
 This will start an http server and automatically re-compile the TypeScript,
 HTML and CSS files whenever they change.
 
 ## For owners
-To push to production: `git subtree push --prefix docs origin gh-pages`.
+To push to production: `npm run deploy`.
 
 This is not an official Google product.
